@@ -115,7 +115,7 @@ spec:
             - start
             - --max-concurrent-reconciles
             - "3"
-          image: "docker.io/nctiggy/cnvrg-operator:v5.0.12"
+          image: "docker.io/nctiggy/cnvrg-operator:v5.0.13"
           imagePullPolicy: Always
           name: cnvrg-operator
           resources:
